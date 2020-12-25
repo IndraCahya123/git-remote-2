@@ -29,7 +29,13 @@
         we just the first and the third line in that code. 
         (just copy that code in the git bash or command promt)
 
-        and u have a duplicate project in your github account
+        and u have a duplicate project in your github account.
+
+        if there's error because your remote project in the github has change with your colaborator or
+        your team, and you and your team has the same change, you have to fetch (<code>git fetch</code>) to check it if there is a change in the remote.
+
+        and then pull the change to our origin project (<code>git pull</code>), you will do the same 
+        as you have a trouble in merge conflict. you have to resolve it before push your changing.
     </pre>
 </body>
 </html>
